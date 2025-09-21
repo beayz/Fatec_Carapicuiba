@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 4 - Verificação de Idade</title>
+</head>
+<body>
+  <h1>Exercício 4 - Verificação de Idade</h1>
+  <script>
+    let idadeUsuario = parseInt(prompt("Digite sua idade:"));
+
+    if (idadeUsuario >= 18) {
+      alert("Você pode tirar a CNH!");
+    } else {
+      alert(`Você ainda não pode tirar a CNH. Faltam ${18 - idadeUsuario} anos.`);
+    }
+  </script>
+</body>
+</html>

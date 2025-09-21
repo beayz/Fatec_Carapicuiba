@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 10 - Mini Calculadora</title>
+</head>
+<body>
+  <h1>Exercício 10 - Mini Calculadora</h1>
+  <script>
+    let num1 = parseFloat(prompt("Digite o primeiro número:"));
+    let num2 = parseFloat(prompt("Digite o segundo número:"));
+    let operador = prompt("Digite a operação (+, -, *, /):");
+
+    if(operador === "+") {
+      alert(`O resultado é: ${num1 + num2}`);
+    } else if(operador === "-") {
+      alert(`O resultado é: ${num1 - num2}`);
+    } else if(operador === "*") {
+      alert(`O resultado é: ${num1 * num2}`);
+    } else if(operador === "/") {
+      alert(`O resultado é: ${num1 / num2}`);
+    } else {
+      alert("Operação inválida!");
+    }
+  </script>
+</body>
+</html>
